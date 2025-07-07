@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
-import { Inter, PT_Sans } from "next/font/google";
+import { PT_Sans } from "next/font/google";
 import "./globals.css";
 import '@splidejs/react-splide/css';
 import Header from "./components/header/Header";

@@ -188,7 +188,7 @@ export default function Home() {
                 <div>
                   <h3 className="my-3 text-[22px] leading-tight">THIS IS  A DEMO BLOG TOPIC WHICH
                   <br/>I’M ABOUT TO WRITE</h3>
-                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
                   <div>
                     <a href="#">Read More</a>
                   </div>
@@ -201,7 +201,7 @@ export default function Home() {
                 <div>
                   <h3 className="my-3 text-[22px] leading-tight">THIS IS  A DEMO BLOG TOPIC WHICH
                   <br/>I’M ABOUT TO WRITE</h3>
-                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
                   <div>
                     <a href="#">Read More</a>
                   </div>
@@ -214,7 +214,7 @@ export default function Home() {
                 <div>
                   <h3 className="my-3 text-[22px] leading-tight">THIS IS  A DEMO BLOG TOPIC WHICH
                   <br/>I’M ABOUT TO WRITE</h3>
-                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                  <p className="text-[#414141]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
                   <div>
                     <a href="#">Read More</a>
                   </div>

@@ -118,7 +118,7 @@ function TechnologiesUsed() {
                     extensions={{ AutoScroll }}
                 >
                 {
-                    slider1.map((ele,i)=>{
+                    slider2.map((ele,i)=>{
                         return(
                         <SplideSlide key={i}>
                             <div>
