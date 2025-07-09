@@ -66,13 +66,55 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap gap-y-4">
             <div className="w-full lg:w-[50%] flex justify-center flex-col">
-              <div>
-                <span className="text-[45px] border-b-4 border-[#61FB83]">LET US</span>
+              <div className="ps-1">
+                <div>
+                  <span className="text-[25px] md:text-[45px] border-b-4 border-[#61FB83]">LET US</span>
+                </div>
+                <div className="overflow-hidden text-[35px] leading-[40px] text-[#000] py-1 md:py-3">
+                    <div className="relative flex items-start gap-x-1 h-[40px] overflow-hidden">
+                      <p className="inline m-0 text-[19px] md:text-[30px]">Help you build something</p>
+                      <ul className="mt-0 text-left list-none animate-change text-[#19d442] text-[19px] md:text-[30px]">
+                        <li className="leading-[40px] m-0">Great.</li>
+                        <li className="leading-[40px] m-0">World Class.</li>
+                        <li className="leading-[40px] m-0">Excellent.</li>
+                        <li className="leading-[40px] m-0">Amazing.</li>
+                      </ul>
+                    </div>
+                  </div>
+                {/* <p className="text-[30px]">Help you build something <span className="bg-[#61FB83] px-1">Great.</span></p> */}
               </div>
-              <div>
-                <p className="text-[30px]">Help you build something <span className="bg-[#61FB83] px-1">Great.</span></p>
-                <a href="#" className="text-[20px]">EXPLORE SOLUTIONS</a>
-              </div>
+              <button
+                  className="cursor-pointer group relative bg-gray-100 hover:bg-zinc-300 text-black font-semibold text-sm py-3 rounded-lg transition-all duration-200 ease-in-out shadow-lg hover:shadow-lg w-40 h-12"
+                >
+                  <div className="relative flex items-center justify-center gap-2">
+                    <span className="relative inline-block overflow-hidden">
+                      <span
+                        className="block transition-transform duration-300 group-hover:-translate-y-full"
+                      >
+                        Get Started
+                      </span>
+                      <span
+                        className="absolute inset-0 transition-transform duration-300 translate-y-full group-hover:translate-y-0"
+                      >
+                        Right Now
+                      </span>
+                    </span>
+
+                    <svg
+                      className="w-4 h-4 transition-transform duration-200 group-hover:rotate-45"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle fill="currentColor" r="11" cy="12" cx="12"></circle>
+                      <path
+                        strokeLinejoin="round"
+                        strokeLinecap="round"
+                        strokeWidth="2"
+                        stroke="white"
+                        d="M7.5 16.5L16.5 7.5M16.5 7.5H10.5M16.5 7.5V13.5"
+                      ></path>
+                    </svg>
+                  </div>
+              </button>
             </div>
             <div className="w-full lg:w-[50%]">
               <Image className="mx-auto" src='/assets/img/hero-img.png' alt="hero img" height={700} width={440} />

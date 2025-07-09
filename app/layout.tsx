@@ -4,6 +4,7 @@ import { PT_Sans } from "next/font/google";
 import "./globals.css";
 import '@splidejs/react-splide/css';
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 const PTSans = PT_Sans({
   weight: ["400","700"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <Header/>
           {children}
+          <Footer/>
         </AppRouterCacheProvider>
       </body>
     </html>

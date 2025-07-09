@@ -109,7 +109,7 @@ function Header() {
                   <ListItem sx={{ p: 0 }}>
                     <Link
                       href={list.href}
-                      className={`text-black text-[14px] px-4 py-4 block hover:text-blue-600 ${inter.className}`}
+                      className={`text-[14px] px-4 py-4 block text-[#3A3A3A] hover:text-[#19d442] transition-colors duration-300 ${inter.className}`}
                     >
                       {list.name}
                     </Link>
@@ -133,7 +133,7 @@ function Header() {
                         <ListItem key={j} sx={{ px: 2, py: 1 }}>
                           <Link
                             href={drop.href}
-                            className={`text-black hover:text-blue-600 ${inter.className}`}
+                            className={`text-[#3A3A3A] hover:text-[#19d442] transition-colors duration-300 ${inter.className}`}
                           >
                             {drop.name}
                           </Link>
@@ -185,7 +185,7 @@ function Header() {
           right: 0,
           height: "100vh",
           width: "300px",
-          bgcolor: "wheat",
+          bgcolor: "black",
           zIndex: 1300,
           transform: menuOpen ? "translateX(0)" : "translateX(100%)",
           transition: "transform 0.3s ease-in-out",
@@ -198,7 +198,7 @@ function Header() {
         {/* Close Button */}
         <Box sx={{ display: "flex", justifyContent: "flex-end", mb: 2 }}>
           <IconButton onClick={() => setMenuOpen(false)}>
-            <CloseIcon />
+            <CloseIcon className="text-white" />
           </IconButton>
         </Box>
 
@@ -223,11 +223,11 @@ function Header() {
                   >
                     <Link
                       href={list.href}
-                      className={`text-black hover:text-blue-600 ${inter.className}`}
+                      className={`text-[#FFFFFF] hover:text-[#19d442] transition-colors duration-300 ${inter.className}`}
                     >
                       {list.name}
                     </Link>
-                    {hasDropdown && (isOpen ? <ExpandLess /> : <ExpandMore />)}
+                    {hasDropdown && (isOpen ? <ExpandLess className="text-white" /> : <ExpandMore className="text-white" />)}
                   </ListItemButton>
                 </ListItem>
 
@@ -241,7 +241,7 @@ function Header() {
                       >
                         <Link
                           href={drop.href}
-                          className={`text-black hover:text-blue-600 ${inter.className}`}
+                          className={`text-[#FFFFFF] hover:text-[#19d442] transition-colors duration-300 ${inter.className}`}
                         >
                           {drop.name}
                         </Link>

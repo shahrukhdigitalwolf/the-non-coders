@@ -69,15 +69,16 @@ function TechnologiesUsed() {
             options={{
                 type:'loop',
                 arrows:false,
+                pagination:false,
                 perPage:10,
                 rewind: true,
                 gap: '1rem',
                 breakpoints: {
                 1000:{
-                    perPage:3
+                    perPage:5
                 },
                 640: {
-                    perPage: 1,
+                    perPage: 6,
                 },
                 }
             }}
@@ -99,6 +100,7 @@ function TechnologiesUsed() {
                     aria-label="My Favorite Images"
                     options={{
                     type:'loop',
+                    pagination:false,
                     arrows:false,
                     perPage:10,
                     rewind: true,
@@ -108,10 +110,10 @@ function TechnologiesUsed() {
                     },
                     breakpoints: {
                         1000:{
-                        perPage:3
+                          perPage:5
                         },
                         640: {
-                        perPage: 1,
+                          perPage: 6,
                         },
                     }
                     }}
